@@ -13,5 +13,8 @@
     },
     "keywords": ["wow", "warcraft", "data"],
     "author": "David Craig",
-    "license": "MIT"
+    "license": "MIT",
+    "publishConfig": {
+        "access": "public"
+    }
 }
