@@ -8,7 +8,7 @@ Initial versions
 - `data/enum/Realms.ts`
 - `data/Roles.ts` (const)
 
-# 0.0.4
+# 0.0.4 (unpublished)
 
 ## Added
 
@@ -18,3 +18,15 @@ Initial versions
 ## Changed
 
  - Update `WoWClass` to use `types/Role.ts`
+
+# 0.0.5
+
+## Added
+
+ - `types/Material.d.ts`
+ - `types/CraftedItem.d.ts`
+
+## Changed
+
+ - Fix: fixed uses of pluralised cases for enums, now using single case.
+ - Fix: All types now have .d.ts extension.

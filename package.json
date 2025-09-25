@@ -1,16 +1,25 @@
 {
     "name": "@davidcraig/wowdata",
-    "version": "0.0.4",
+    "version": "0.0.5",
     "description": "A TypeScript-only package containing reusable data for World of Warcraft",
     "files": [
         "src"
     ],
     "exports": {
-        "./Races": {
-            "import": "./src/data/enum/Races.ts"
+        "./Material": {
+            "types": "./src/types/Material.d.ts"
         },
-        "./Realms": {
-            "import": "./src/data/enum/Realms.ts"
+        "./Race": {
+            "import": "./src/data/enum/Race.ts"
+        },
+        "./Rarity": {
+            "import": "./src/data/enum/Rarity.ts"
+        },
+        "./Realm": {
+            "import": "./src/data/enum/Realm.ts"
+        },
+        "./Role": {
+            "import": "./src/types/Role.d.ts"
         },
         "./WoWClass": {
             "types": "./src/types/WoWClass.d.ts"
