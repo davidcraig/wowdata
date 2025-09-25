@@ -1,4 +1,4 @@
-export enum Realms {
+export enum Realm {
   Draenor = "Draenor",
   Kazzak = "Kazzak",
   Lightbringer = "Lightbringer",

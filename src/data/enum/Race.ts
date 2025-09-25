@@ -1,4 +1,4 @@
-export enum Races {
+export enum Race {
   // Alliance
   Human = "Human",
   VoidElf = "Void Elf",

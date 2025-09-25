@@ -15,4 +15,3 @@ export type WoWClass = {
   }[]
   guides?: { name: string, url: string }[]
 }
-  
