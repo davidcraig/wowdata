@@ -36,3 +36,9 @@ Initial versions
 # Added
 
  - Add all the character classes importable as either `@davidcraig/wowdata/classes` or each individual class `@davidcraig/wowdata/classes/death-knight`
+
+# 0.0.7
+
+# Fixes
+
+ - Fix typo in monk.ts link to WoWClass
