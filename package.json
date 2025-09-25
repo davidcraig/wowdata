@@ -48,6 +48,9 @@
         "./classes/warrior": {
             "import": "./src/data/classes/warrior.ts"
         },
+        "./CraftedItem": {
+            "types": "./src/types/CraftedItem.d.ts"
+        },
         "./Material": {
             "types": "./src/types/Material.d.ts"
         },
