@@ -58,3 +58,9 @@ Initial versions
 ## Changes
 
  - Include tsconfig.json for DX and update imports to use qualified paths.
+
+# 0.0.9
+
+## Changes
+
+- Fix role type import.
