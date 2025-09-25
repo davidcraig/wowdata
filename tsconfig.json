@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".", // assumes tsconfig is at package root
+    "paths": {
+      "@davidcraig/wowdata/classes": ["src/data/classes/index.ts"],
+      "@davidcraig/wowdata/classes/death-knight": ["src/data/classes/death-knight.ts"],
+      "@davidcraig/wowdata/classes/demon-hunter": ["src/data/classes/demon-hunter.ts"],
+      "@davidcraig/wowdata/classes/druid": ["src/data/classes/druid.ts"],
+      "@davidcraig/wowdata/classes/evoker": ["src/data/classes/evoker.ts"],
+      "@davidcraig/wowdata/classes/hunter": ["src/data/classes/hunter.ts"],
+      "@davidcraig/wowdata/classes/mage": ["src/data/classes/mage.ts"],
+      "@davidcraig/wowdata/classes/monk": ["src/data/classes/monk.ts"],
+      "@davidcraig/wowdata/classes/paladin": ["src/data/classes/paladin.ts"],
+      "@davidcraig/wowdata/classes/priest": ["src/data/classes/priest.ts"],
+      "@davidcraig/wowdata/classes/rogue": ["src/data/classes/rogue.ts"],
+      "@davidcraig/wowdata/classes/shaman": ["src/data/classes/shaman.ts"],
+      "@davidcraig/wowdata/classes/warlock": ["src/data/classes/warlock.ts"],
+      "@davidcraig/wowdata/classes/warrior": ["src/data/classes/warrior.ts"],
+      "@davidcraig/wowdata/Material": ["src/types/Material.d.ts"],
+      "@davidcraig/wowdata/Race": ["src/data/enum/Race.ts"],
+      "@davidcraig/wowdata/Rarity": ["src/data/enum/Rarity.ts"],
+      "@davidcraig/wowdata/Realm": ["src/data/enum/Realm.ts"],
+      "@davidcraig/wowdata/Role": ["src/types/Role.d.ts"],
+      "@davidcraig/wowdata/Roles": ["src/data/Roles.ts"],
+      "@davidcraig/wowdata/WoWClass": ["src/types/WoWClass.d.ts"]
+    }
+  }
+}

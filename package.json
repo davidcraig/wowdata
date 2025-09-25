@@ -60,8 +60,11 @@
         "./Realm": {
             "import": "./src/data/enum/Realm.ts"
         },
-        "./role": {
-            "import": "./src/types/Role.d.ts"
+        "./Role": {
+            "types": "./src/types/Role.d.ts"
+        },
+        "./Roles": {
+            "import": "./src/data/Roles.ts"
         },
         "./WoWClass": {
             "types": "./src/types/WoWClass.d.ts"

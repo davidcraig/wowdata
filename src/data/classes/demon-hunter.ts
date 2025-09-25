@@ -1,5 +1,5 @@
-import { ROLES } from '../Roles'
-import type { WoWClass } from '../../types/WoWClass'
+import ROLES from '@davidcraig/wowdata/Roles';
+import type { WoWClass } from '@davidcraig/wowdata/WoWClass'
 
 export const DemonHunter: WoWClass = {
   name: 'Demon Hunter',
