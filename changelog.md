@@ -8,6 +8,8 @@ Initial versions
 - `data/enum/Realms.ts`
 - `data/Roles.ts` (const)
 
+---
+
 # 0.0.4 (unpublished)
 
 ## Added
@@ -18,6 +20,8 @@ Initial versions
 ## Changed
 
  - Update `WoWClass` to use `types/Role.ts`
+
+---
 
 # 0.0.5
 
@@ -31,14 +35,26 @@ Initial versions
  - Fix: fixed uses of pluralised cases for enums, now using single case.
  - Fix: All types now have .d.ts extension.
 
+---
+
 # 0.0.6
 
-# Added
+## Added
 
  - Add all the character classes importable as either `@davidcraig/wowdata/classes` or each individual class `@davidcraig/wowdata/classes/death-knight`
 
+---
+
 # 0.0.7
 
-# Fixes
+## Fixes
 
  - Fix typo in monk.ts link to WoWClass
+
+---
+
+# 0.0.8
+
+## Changes
+
+ - Include tsconfig.json for DX and update imports to use qualified paths.
