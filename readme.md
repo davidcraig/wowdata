@@ -10,6 +10,7 @@ This assumes using NextJS with TypeScript, other solutions may need other steps.
 
 2. Add to NextJS Compiler
 
+`.next.config.js`
 ```.next.config.js
 const nextConfig = {
     ...
@@ -20,6 +21,7 @@ const nextConfig = {
 module.exports = nextConfig
 ```
 
+`tsconfig.json`
 ```tsconfig.json
 {
   "compilerOptions": {
