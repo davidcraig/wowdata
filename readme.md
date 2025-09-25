@@ -29,7 +29,10 @@ module.exports = nextConfig
     "paths": {
       "@davidcraig/wowdata/classes/*": [
         "node_modules/@davidcraig/wowdata/src/data/classes/*"
-      ]
+      ],
+      "@davidcraig/wowdata/Realm": [
+        "node_modules/@davidcraig/wowdata/src/data/enum/Realm.ts"
+      ],
     }
 }
 ```
