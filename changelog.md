@@ -30,3 +30,9 @@ Initial versions
 
  - Fix: fixed uses of pluralised cases for enums, now using single case.
  - Fix: All types now have .d.ts extension.
+
+# 0.0.6
+
+# Added
+
+ - Add all the character classes importable as either `@davidcraig/wowdata/classes` or each individual class `@davidcraig/wowdata/classes/death-knight`

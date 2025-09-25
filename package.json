@@ -1,11 +1,53 @@
 {
     "name": "@davidcraig/wowdata",
-    "version": "0.0.5",
+    "version": "0.0.6",
     "description": "A TypeScript-only package containing reusable data for World of Warcraft",
     "files": [
         "src"
     ],
     "exports": {
+        "./classes": {
+            "import": "./src/data/classes/index.ts"
+        },
+        "./classes/death-knight": {
+            "import": "./src/data/classes/death-knight.ts"
+        },
+        "./classes/demon-hunter": {
+            "import": "./src/data/classes/demon-hunter.ts"
+        },
+        "./classes/druid": {
+            "import": "./src/data/classes/druid.ts"
+        },
+        "./classes/evoker": {
+            "import": "./src/data/classes/evoker.ts"
+        },
+        "./classes/hunter": {
+            "import": "./src/data/classes/hunter.ts"
+        },
+        "./classes/mage": {
+            "import": "./src/data/classes/mage.ts"
+        },
+        "./classes/monk": {
+            "import": "./src/data/classes/monk.ts"
+        },
+        "./classes/paladin": {
+            "import": "./src/data/classes/paladin.ts"
+        },
+        "./classes/priest": {
+            "import": "./src/data/classes/priest.ts"
+        },
+        "./classes/rogue": {
+            "import": "./src/data/classes/rogue.ts"
+        },
+        "./classes/shaman": {
+            "import": "./src/data/classes/shaman.ts"
+        },
+        "./classes/warlock": {
+            "import": "./src/data/classes/warlock.ts"
+        },
+        "./classes/warrior": {
+            "import": "./src/data/classes/warrior.ts"
+        },
         "./Material": {
             "types": "./src/types/Material.d.ts"
         },
@@ -18,7 +60,7 @@
         "./Realm": {
             "import": "./src/data/enum/Realm.ts"
         },
-        "./Role": {
+        "./role": {
             "import": "./src/types/Role.d.ts"
         },
         "./WoWClass": {
