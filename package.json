@@ -6,9 +6,8 @@
         "src"
     ],
     "exports": {
-        "./data": {
-            "import": "./src/data/planets.ts",
-            "types": "./src/types/planets.d.ts"
+        "./WoWClass": {
+            "types": "./src/types/WoWClass.d.ts"
         }
     },
     "keywords": ["wow", "warcraft", "data"],
