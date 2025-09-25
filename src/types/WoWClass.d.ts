@@ -1,3 +1,5 @@
+import type { Role } from '../data/Roles.ts'
+
 export type WoWClass = {
     name: string
     css: string
