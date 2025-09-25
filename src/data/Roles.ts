@@ -1,5 +1,4 @@
-import type { Role } from '../types/Role'
-
+import type { Role } from '@davidcraig/wowdata/Role'
 
 // Not ideal for package purposes to enforce image location, however can work around it.
 export const ROLES: Record<string, Role> = {
