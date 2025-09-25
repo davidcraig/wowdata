@@ -1,4 +1,4 @@
-import type { Role } from './Role'
+import type { Role } from '@davidcraig/wowdata/Role'
 
 export type WoWClass = {
   name: string

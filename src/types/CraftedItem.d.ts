@@ -1,5 +1,5 @@
-import { Rarity } from "../data/enum/Rarity"
-import type { Material } from "./Material"
+import { Rarity } from "@davidcraig/wowdata/Rarity"
+import type { Material } from "@davidcraig/wowdata/Material"
 
 export type Reagent = Material & { quantity?: number }
 

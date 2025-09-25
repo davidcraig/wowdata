@@ -1,4 +1,4 @@
-import { Rarity } from "../data/enum/Rarity";
+import { Rarity } from "@davidcraig/wowdata/Rarity";
 
 export type Material = {
     name: string
