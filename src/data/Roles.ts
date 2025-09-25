@@ -1,7 +1,4 @@
-export type Role = {
-  name: string
-  icon: string
-}
+import type { Role } from '../types/Role'
 
 export const ROLES: Record<string, Role> = {
   DPS: { name: 'DPS', icon: '/img/wow/dps.png' },

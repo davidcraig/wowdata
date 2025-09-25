@@ -1,18 +1,18 @@
-import type { Role } from '../data/Roles.ts'
+import type { Role } from './Role'
 
 export type WoWClass = {
+  name: string
+  css: string
+  roles?: Role[]
+  img?: string
+  discord?: string[] | string
+  specs?: {
     name: string
-    css: string
-    roles?: Role[]
+    key: string
+    role: Role
     img?: string
-    discord?: string[] | string
-    specs?: {
-      name: string
-      key: string
-      role: Role
-      img?: string
-      guides?: { name: string, url: string }[]
-    }[]
     guides?: { name: string, url: string }[]
-  }
+  }[]
+  guides?: { name: string, url: string }[]
+}
   
