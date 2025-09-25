@@ -1,5 +1,5 @@
 import { ROLES } from '../roles'
-import type { WoWClass } from '../../wypes/WoWClass'
+import type { WoWClass } from '../../types/WoWClass'
 
 export const Monk: WoWClass = {
   name: 'Monk',
