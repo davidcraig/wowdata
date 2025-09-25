@@ -1,7 +1,11 @@
 {
   "compilerOptions": {
     "baseUrl": ".", // assumes tsconfig is at package root
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "allowImportingTsExtensions": true,
     "paths": {
+      "@davidcraig/wowdata/Character": ["src/types/Character.d.ts"],
       "@davidcraig/wowdata/classes": ["src/data/classes/index.ts"],
       "@davidcraig/wowdata/classes/death-knight": ["src/data/classes/death-knight.ts"],
       "@davidcraig/wowdata/classes/demon-hunter": ["src/data/classes/demon-hunter.ts"],
@@ -16,6 +20,7 @@
       "@davidcraig/wowdata/classes/shaman": ["src/data/classes/shaman.ts"],
       "@davidcraig/wowdata/classes/warlock": ["src/data/classes/warlock.ts"],
       "@davidcraig/wowdata/classes/warrior": ["src/data/classes/warrior.ts"],
+      "@davidcraig/wowdata/CraftedItem": ["src/types/CraftedItem.d.ts"],
       "@davidcraig/wowdata/Material": ["src/types/Material.d.ts"],
       "@davidcraig/wowdata/Race": ["src/data/enum/Race.ts"],
       "@davidcraig/wowdata/Rarity": ["src/data/enum/Rarity.ts"],

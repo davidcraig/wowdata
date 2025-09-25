@@ -74,3 +74,9 @@ Initial versions
 ## Changes
 
  - Update types imports to use qualified names.
+
+# 0.0.11
+
+## Changes
+
+ - Update Character.d.ts

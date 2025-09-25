@@ -1,11 +1,14 @@
 {
     "name": "@davidcraig/wowdata",
-    "version": "0.0.10",
+    "version": "0.0.11",
     "description": "A TypeScript-only package containing reusable data for World of Warcraft",
     "files": [
         "src"
     ],
     "exports": {
+        "./Character": {
+            "types": "./src/types/Character.d.ts"
+        },
         "./classes": {
             "import": "./src/data/classes/index.ts"
         },
